@@ -1,0 +1,20 @@
+{
+  "title": "SmokeCalc 20260528 2223",
+  "one_liner": "Final smoke request",
+  "problem_statement": "People need a fast, clean calculator that remembers past calculations and handles common unit conversions without installing an app.",
+  "target_user": "Anyone who needs quick calculations",
+  "features": [
+    "Basic arithmetic calculator with keyboard support",
+    "Calculation history saved to localStorage",
+    "Common unit conversions (length, weight, temperature)"
+  ],
+  "non_goals": [
+    "Scientific/graphing calculator",
+    "User accounts or cloud sync"
+  ],
+  "technical_constraints": [
+    "client-side only",
+    "localStorage persistence",
+    "no auth"
+  ]
+}
